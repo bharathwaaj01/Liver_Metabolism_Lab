@@ -1,5 +1,5 @@
 import React from 'react'
-
+import bharthwaaj from './Image/Bharthwaaj.jpg'
 function Home() {
     return (
         <div>
@@ -17,17 +17,10 @@ function Home() {
                                             Liver Disease And Metabolism Group
                                         </h1>
                                         <p class="max-w-[600px] text-white font-bold md:text-xl">
-                                            Pioneering cutting-edge research and innovative solutions for a healthier world.
+                                            from centre for excellence in medical research
                                         </p>
                                     </div>
-                                    <div class="flex flex-col gap-2 min-[400px]:flex-row">
-                                        <a
-                                            href="#"
-                                            class="inline-flex bg-gray-200 h-10 items-center justify-center rounded-md bg-primary-foreground px-8 text-sm font-medium text-primary shadow transition-colors hover:bg-primary-foreground/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                                        >
-                                            Contact Us
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                                 <img
                                     src="https://img.freepik.com/free-vector/flat-illustration-world-hepatitis-day-awareness_23-2150420464.jpg?t=st=1718817836~exp=1718821436~hmac=3d29ce031ebfbb7ca2e0935c44a85a8de3accb36fcd7c7e3cf1ebc1d5dc2611d&w=740"
@@ -43,12 +36,12 @@ function Home() {
                     <section id="services" class="w-full py-12 md:py-24 lg:py-32 border bg-gray-300 ">
                         <div class="container px-4 md:px-6">
                             <div class="space-y-2 text-center">
-                                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
+                                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Our Expertise</h2>
                                 <p class="max-w-[600px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                     Acme Labs offers a wide range of cutting-edge research services to support your scientific endeavors.
                                 </p>
                             </div>
-                            <div class="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
+                            <div class="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12">
                                 <div class="flex flex-col items-center justify-center space-y-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -74,58 +67,8 @@ function Home() {
                                         Our advanced analytical equipment and techniques provide in-depth material characterization.
                                     </p>
                                 </div>
-                                <div class="flex flex-col items-center justify-center space-y-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="h-12 w-12 text-primary"
-                                    >
-                                        <path d="M4.5 3h15"></path>
-                                        <path d="M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"></path>
-                                        <path d="M6 14h12"></path>
-                                    </svg>
-                                    <h3 class="text-xl font-bold">Chemical Testing</h3>
-                                    <p class="text-muted-foreground text-center">
-                                        Leverage our state-of-the-art chemistry labs for all your testing needs.
-                                    </p>
-                                </div>
-                                <div class="flex flex-col items-center justify-center space-y-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="h-12 w-12 text-primary"
-                                    >
-                                        <path d="M2 15c6.667-6 13.333 0 20-6"></path>
-                                        <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"></path>
-                                        <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"></path>
-                                        <path d="m17 6-2.5-2.5"></path>
-                                        <path d="m14 8-1-1"></path>
-                                        <path d="m7 18 2.5 2.5"></path>
-                                        <path d="m3.5 14.5.5.5"></path>
-                                        <path d="m20 9 .5.5"></path>
-                                        <path d="m6.5 12.5 1 1"></path>
-                                        <path d="m16.5 10.5 1 1"></path>
-                                        <path d="m10 16 1.5 1.5"></path>
-                                    </svg>
-                                    <h3 class="text-xl font-bold">Genomic Research</h3>
-                                    <p class="text-muted-foreground text-center">
-                                        Our genomics facility is equipped with the latest sequencing technologies.
-                                    </p>
-                                </div>
+                               
+                               
                                 <div class="flex flex-col items-center justify-center space-y-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -214,10 +157,12 @@ function Home() {
                                     </p>
                                 </div>
                             </div>
-                            <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+                            <div className='flex items-center py-5 justify-center'>
+
+                            <div class=" grid max-w-5xl items-center gap-6 lg:py-12 lg:grid-cols-2 lg:gap-12">
                                 <div class="flex flex-col justify-center space-y-4 border bg-gray-200 rounded-lg p-4">
                                     <img
-                                        src="https://img.freepik.com/free-photo/indian-businessman-with-his-white-car_496169-2889.jpg?t=st=1718818913~exp=1718822513~hmac=c115bc4aa93aed27d3f996bd29aa44cd21da00ecdcbdda7fe8f13d53213c7be9&w=360"
+                                        src="https://pbs.twimg.com/profile_images/1766161871202299904/MoBU92mf_400x400.jpg"
                                         width="550"
                                         height="550"
                                         alt="Team Member"
@@ -225,13 +170,13 @@ function Home() {
                                         class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                     />
                                     <div class="grid gap-1 text-center">
-                                        <h3 class="text-xl font-bold text-secondary">Dr. Jane Doe</h3>
-                                        <p class="text-muted-foreground">Principal Investigator, Biotechnology</p>
+                                        <h3 class="text-xl font-bold text-secondary">Dr. Divya P. Kumar</h3>
+                                        <p class="text-muted-foreground">Principal Investigator</p>
                                     </div>
                                 </div>
                                 <div class="flex flex-col justify-center space-y-4 border bg-gray-200 rounded-lg p-4">
                                     <img
-                                        src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?t=st=1718818927~exp=1718822527~hmac=70f7bfc74cb55646568dc2954bc18878eb88541c026cde7d224e42a289178bff&w=996"
+                                        src="https://loop.frontiersin.org/images/profile/1076061/203"
                                         width="550"
                                         height="550"
                                         alt="Team Member"
@@ -239,13 +184,45 @@ function Home() {
                                         class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                     />
                                     <div class="grid gap-1 text-center">
-                                        <h3 class="text-xl font-bold text-secondary">Dr. John Smith</h3>
-                                        <p class="text-muted-foreground">Senior Scientist, Materials Science</p>
+                                        <h3 class="text-xl font-bold text-secondary">Akshtha N. Srinivas</h3>
+                                        <p class="text-muted-foreground">Senior Research fellow, Daughter of DPK</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            </div>
+                            <div class="mx-auto grid max-w-5xl items-center gap-6 lg:py-12 lg:grid-cols-3 lg:gap-12">
+                                <div class="flex flex-col justify-center space-y-4 border bg-gray-200 rounded-lg p-4">
+                                    <img
+                                        src="https://pbs.twimg.com/profile_images/1766161871202299904/MoBU92mf_400x400.jpg"
+                                        width="550"
+                                        height="550"
+                                        alt="Team Member"
+
+                                        class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                                    />
+                                    <div class="grid gap-1 text-center">
+                                        <h3 class="text-xl font-bold text-secondary">Dr. Divya P. Kumar</h3>
+                                        <p class="text-muted-foreground">Principal Investigator</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col justify-center space-y-4 border bg-gray-200 rounded-lg p-4">
+                                    <img
+                                        src={bharthwaaj}
+                                        width="550"
+                                        height="550"
+                                        alt="Team Member"
+
+                                        class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                                    />
+                                    <div class="grid gap-1 text-center">
+                                        <h3 class="text-xl font-bold text-secondary">Akshtha N. Srinivas</h3>
+                                        <p class="text-muted-foreground">Senior Research fellow, Daughter of DPK</p>
                                     </div>
                                 </div>
                                 <div class="flex flex-col bg-gray-200 justify-center space-y-4 border rounded-lg p-4">
                                     <img
-                                        src="https://img.freepik.com/free-photo/closeup-shot-laughing-male-model-outside-sun-rays_181624-53325.jpg?t=st=1718818946~exp=1718822546~hmac=b112eaa980833d5e715bde1b33062f0ce7d601470a65367178a5d018b585743c&w=740"
+                                        src="https://i1.rgstatic.net/ii/profile.image/962699211059202-1606536786866_Q512/Diwakar-S.jpg"
                                         width="550"
                                         height="550"
 
@@ -253,8 +230,8 @@ function Home() {
                                         class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                     />
                                     <div class="grid gap-1 text-center">
-                                        <h3 class="text-xl font-bold text-secondary">Dr. Sarah Lee</h3>
-                                        <p class="text-muted-foreground">Research Scientist, Environmental Science</p>
+                                        <h3 class="text-xl font-bold text-secondary">Diwakar S</h3>
+                                        <p class="text-muted-foreground">ICMR FELLOW, Son of DPK</p>
                                     </div>
                                 </div>
                             </div>
